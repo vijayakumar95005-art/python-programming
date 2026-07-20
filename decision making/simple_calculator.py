@@ -1,0 +1,6 @@
+num1=int(input())
+num2=int(input())
+print("Sum:",num1+num2)
+print("sub:",num1-num2)
+print("Mul:",num1*num2)
+print("Div:",num1/num2)
