@@ -1,0 +1,10 @@
+num=int(input())
+n500=num//500
+num=num%500
+n200=num//200
+num=num%200
+n100=num//100
+num=num%100
+n50=num//50
+num=num%50
+print(n500+n200+n100+n50)
