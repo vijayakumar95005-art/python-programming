@@ -1,0 +1,8 @@
+num_list=list(map(int,input().split()))
+number=int(input())
+num_list.append(number)
+print(num_list)
+print("Minimum:",min(num_list),"\nMaximum:",max(num_list))
+print("Average:",sum(num_list)/len(num_list))
+new_list=sorted(num_list)
+print(new_list)

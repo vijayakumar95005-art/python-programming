@@ -1,0 +1,7 @@
+num=int(input())
+count=0
+temp=num
+while num>0:
+    num//=10
+    count+=1
+print(temp*count)
