@@ -1,4 +1,4 @@
-numbers = [12, 45, 7, 89, 34, 89, 56]
+numbers = list(map(int,input().split()))
 largest=numbers[0]
 second_largest=numbers[0]
 for num in numbers:
